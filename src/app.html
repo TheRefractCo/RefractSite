@@ -1,16 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="dark">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cantata+One:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cantata+One:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width" />
 		<title>R E F R ▲ C T</title>
+		<style>
+			html,
+			body {
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+		</style>
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover" data-theme="B&W" style="height: 9000px;">
+	<body data-sveltekit-preload-data="hover" data-theme="B&W" style="height: 9000px">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
