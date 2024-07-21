@@ -8,9 +8,9 @@
 	<a href="https://github.com/shef3r" id="gh" class="social">
 		<div class="iconcont"><img src={github} alt="GitHub" class="socialicon" /></div>
 		<p>@shef3r</p>
-	</a><a href="https://twitter.com/lidlomiks" id="twt" class="social">
+	</a><a href="https://twitter.com/sheferdev" id="twt" class="social">
 		<div class="iconcont"><img src={twitter} alt="Twitter" class="socialicon" /></div>
-		<p>@lidlomiks</p>
+		<p>@sheferdev</p>
 	</a><a href="mailto:bruno@refract.fyi" id="mail" class="social">
 		<div class="iconcont"><img src={email} alt="E-mail" class="socialicon" /></div>
 		<p>bruno@refract.fyi</p>
