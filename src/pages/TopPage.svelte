@@ -1,5 +1,5 @@
 <script>
-	import Bg from './BG.svelte';
+	import Bg from '../components/BG.svelte';
 </script>
 
 <Bg />
@@ -37,31 +37,62 @@
 </section>
 
 <style>
+	@media screen and (max-width: 750px) {
+		#top {
+			margin-bottom: 0px;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		#texts {
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	@keyframes reveal4others {
+		0% {
+			opacity: 0%;
+			filter: blur(20px);
+		}
+		100% {
+			opacity: 100%;
+			filter: blur(0px);
+		}
+	}
 	#what {
 		height: 230px;
 		width: 250px;
+		opacity: 0;
+		animation: reveal4others 2s forwards;
+		animation-delay: 1.5s;
 	}
 	#who {
 		width: 250px;
 		height: 230px;
+		animation: reveal4others 2s forwards;
+		animation-delay: 0s;
+		opacity: 0;
 	}
 	#exp {
 		width: 220px;
 		height: 230px;
+		animation: reveal4others 2s forwards;
+		animation-delay: 0.75s;
+		opacity: 0;
 	}
 	#texts {
 		margin-top: 50px;
 		letter-spacing: -1px;
 	}
 	.textframe {
-		border: 1px solid white;
+		border: 1px solid rgba(255, 255, 255, 0.3);
 		border-radius: 20px;
 		padding: 20px;
 	}
 	#top {
 		margin-top: -96px;
 		padding: 100px 30px 30px 30px;
-		margin-bottom: 350px;
+		margin-bottom: 150px;
 	}
 	#tagline > p > b {
 		font-size: 40px;
@@ -80,6 +111,8 @@
 	#tagline {
 		display: flex;
 		font-family: var(--theme-font-family-heading);
+		line-height: 50px;
+		text-align: center;
 	}
 	#tagline > p > b:hover {
 		font-size: 45px;
