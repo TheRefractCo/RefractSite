@@ -4,5 +4,5 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	base: '/RefractSite/',
-	plugins: [sveltekit(), purgeCss()]
+	plugins: [sveltekit(), purgeCss()],
 });
