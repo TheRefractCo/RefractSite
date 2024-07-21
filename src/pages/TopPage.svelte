@@ -1,8 +1,4 @@
-<script>
-	import Bg from '../components/BG.svelte';
-</script>
 
-<Bg />
 <section id="top" class="flex margin-40 flex-col justify-items-center items-center">
 	<p id="mission" class="smalltxt">Our mission:</p>
 	<div id="tagline"><p>Shaping <b>code</b>, illuminating <b>innovation</b>.</p></div>
