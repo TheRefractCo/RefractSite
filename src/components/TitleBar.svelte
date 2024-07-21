@@ -17,11 +17,7 @@
 			noprojs();
 		}
 	}
-	import Bg from '../components/BG.svelte';
 </script>
-
-<Bg />
-
 <div id="ttb" class="items-center flex margin-20 justify-center flex-row w-full h-24 top-0 gap-10">
 	<a
 		type="button"
