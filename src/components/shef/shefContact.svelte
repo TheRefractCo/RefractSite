@@ -1,5 +1,5 @@
 <script>
-	import email from '../../email.svg';
+	import web from '../../web.svg';
 	import github from '../../github.svg';
 	import twitter from '../../twitter.svg';
 </script>
@@ -12,8 +12,8 @@
 		<div class="iconcont"><img src={twitter} alt="Twitter" class="socialicon" /></div>
 		<p>@sheferdev</p>
 	</a><a href="mailto:bruno@refract.fyi" id="mail" class="social">
-		<div class="iconcont"><img src={email} alt="E-mail" class="socialicon" /></div>
-		<p>bruno@refract.fyi</p>
+		<div class="iconcont"><img src={web} alt="Website" class="socialicon" /></div>
+		<p>bruno.refract.fyi</p>
 	</a>
 </div>
 
