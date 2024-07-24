@@ -11,7 +11,7 @@
                 const data = await response.json();
                 if (data != null) {
                     song = data["recenttracks"]["track"][0]["name"];
-                    songurl = "https://google.com/?q=" + data["recenttracks"]["track"][0]["name"] + " by " + data["recenttracks"]["track"][0]["artist"]["#text"];
+                    songurl = "https://google.com/search?q=" + data["recenttracks"]["track"][0]["name"] + " by " + data["recenttracks"]["track"][0]["artist"]["#text"];
                 }
                 console.log(data);
             } catch (error) {

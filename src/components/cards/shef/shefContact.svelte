@@ -1,7 +1,7 @@
 <script>
-	import web from '../../web.svg';
-	import github from '../../github.svg';
-	import twitter from '../../twitter.svg';
+	import web from '../../../web.svg';
+	import github from '../../../github.svg';
+	import twitter from '../../../twitter.svg';
 </script>
 
 <div id="socials">

@@ -1,5 +1,5 @@
 <script>
-	import shfrlogo from '../shfrlogo.svg';
+	import shfrlogo from './shef/shfrlogo.svg';
 	import ShefContact from './shef/shefContact.svelte';
 	import ShefMusic from './shef/shefMusic.svelte';
 	import ShefProjs from './shef/shefProjs.svelte';
