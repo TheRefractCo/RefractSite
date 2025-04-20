@@ -7,13 +7,12 @@
 		<div id="who" class="textframe">
 			<p class="smalltxt">Wait, who actually <i>are</i> <b>you</b>?</p>
 			<p>
-				We're two designers and developers - p3rid0t and shefer, trying to put ourselves out there
-				with projects.
+				We're designers and developers, trying to put ourselves out there with projects.
 			</p>
 		</div>
 		<div id="exp" class="textframe">
 			<p class="smalltxt">..any experience?</p>
-			<p>For both of us:</p>
+			<p>For both founders:</p>
 			<ul style="list-style-type: disc; margin-left:20px;">
 				<li>Flutter</li>
 				<li>UWP</li>
@@ -25,8 +24,7 @@
 		<div id="what" class="textframe">
 			<p class="smalltxt">And <i>what</i> is <b>this</b>?</p>
 			<p>
-				This is our joint initiative and the place for stuff we do together 🤝, started in July of
-				2024.
+				This is our joint initiative and the place for stuff we do together 🤝, started in July of 2024.
 			</p>
 		</div>
 	</div>

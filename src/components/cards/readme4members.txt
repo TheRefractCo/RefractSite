@@ -4,4 +4,4 @@ Create your own member cards.
 - you can split your card into components (https://svelte.dev/docs/svelte-components), but place them in your designated subfolder.
     - also place assets such as SVGs there.
     - when you type in the name of the component, vscode should autocomplete the import and update it when you move the file.
-Make sure to have the Svelte extensions installed (you should be prompted in the bottom left upon opening the file)
+Make sure to have the Svelte extensions installed (you should be prompted in the bottom right upon opening the file)

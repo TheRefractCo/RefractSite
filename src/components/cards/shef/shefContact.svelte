@@ -8,12 +8,10 @@
 	<a href="https://github.com/shef3r" id="gh" class="social">
 		<div class="iconcont"><img src={github} alt="GitHub" class="socialicon" /></div>
 		<p>@shef3r</p>
-	</a><a href="https://twitter.com/sheferdev" id="twt" class="social">
-		<div class="iconcont"><img src={twitter} alt="Twitter" class="socialicon" /></div>
-		<p>@sheferdev</p>
-	</a><a href="mailto:bruno@refract.fyi" id="mail" class="social">
+	</a>
+	<a href="https://shef3r.dev/" id="web" class="social">
 		<div class="iconcont"><img src={web} alt="Website" class="socialicon" /></div>
-		<p>bruno.refract.fyi</p>
+		<p>shef3r.dev</p>
 	</a>
 </div>
 

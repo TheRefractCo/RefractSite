@@ -1,12 +1,12 @@
 <div id="iccont">
 	<div class="flex flex-row items-end justify-end ic">
-		<a href="https://github.com/shef3r/ferrpad">ferrpad</a>
+		<a href="https://github.com/shef3r/Taskie">taskie</a>
 	</div>
 	<div class="flex flex-row items-center justify-center ic">
 		<a href="https://github.com/shef3r/Transhef">transhef</a>
 	</div>
 	<div class="flex flex-row items-end justify-end ic">
-		<a href="https://github.com/shef3r/UWStats">uwstats</a>
+		<a href="https://github.com/shef3r/ferrpad">ferrpad</a>
 	</div>
 </div>
 

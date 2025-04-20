@@ -1,30 +1,13 @@
 <script lang="ts">
 	import logo from '../../src/logo.svg';
 	import altlogo from '../../src/altlogo.svg';
-
-	function noprojs() {
-		const projsbtn = document.getElementById('projsbtn');
-		if (projsbtn) {
-			projsbtn.innerText = 'none yet';
-			setTimeout(() => {
-				projsbtn.innerText = 'projects';
-			}, 2000);
-		}
-	}
-
-	function handleKeyDown(event: KeyboardEvent) {
-		if (event.key === 'Enter' || event.key === ' ') {
-			noprojs();
-		}
-	}
 </script>
 <div id="ttb" class="items-center flex margin-20 justify-center flex-row w-full h-24 top-0 gap-10">
 	<a
 		type="button"
 		id="projsbtn"
 		class="btn !bg-transparent"
-		on:click={noprojs}
-		on:keydown={handleKeyDown}
+		href="#projects"
 		role="button"
 		tabindex="0">projects</a
 	>

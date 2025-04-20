@@ -9,13 +9,15 @@
 
 <section id="members" class="flex margin-40 flex-col justify-items-center items-center">
 	<div id="header"><p>Our members</p></div>
-	<div id="membercards">
+	<div id="foundercards">
 		<div class="foundercard">
 			<ShefCard />
 		</div>
 		<div class="foundercard">
 			<PeridotCard />
 		</div>
+	</div>
+	<div id="membercards">
 		<div class="membercard">
 			<AurumakerCard />
 		</div>
@@ -33,16 +35,13 @@
 
 <style>
 	@media screen and (max-width: 750px) {
-		#membercards {
+		#membercards, #foundercards {
 			flex-direction: column !important;
 		}
-		.membercard:last-child {
+	}
+	.membercard:last-child {
 			margin-bottom: 250px !important;
 		}
-	}
-	#members {
-		padding-top: 50px;
-	}
 	.membercard {
 		width: 30%;
 		width: 300px;
@@ -63,12 +62,15 @@
 		margin: 10px;
 		margin-top: 40px;
 	}
-	#membercards {
+	#membercards, #foundercards {
 		margin: 20px;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+	#membercards {
+		margin-top: -50px !important;
 	}
 	#members {
 		height: 700px;

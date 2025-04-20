@@ -8,7 +8,7 @@
 <div class="flex justify-center flex-row gap-8 items-center">
 	<img src={shfrlogo} alt="shefer" width="30%" />
 	<div class="flex flex-col items-center">
-		<p>16yo, he/him</p>
+		<p>17yo, he/him</p>
 		<ShefMusic/>
 	</div>
 </div>
